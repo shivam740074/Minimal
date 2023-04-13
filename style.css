@@ -1,0 +1,258 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+   }
+
+   .img1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+   }
+
+   .mid{
+    display: flex;
+    position: absolute;
+    font-family: Oswald;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 10vw;
+    left: 26vw;
+}
+
+.mid h3{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 0vw 15vw;
+}
+
+.ri-star-fill{
+    position: position;
+    color: #fff;
+    align-items: center;
+    padding: 2vmax;
+}
+
+.mid h1{
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.container h4{
+    line-height: 8vmax;
+    font-size: 1.2vmax;
+    font-weight: 300;
+}
+
+.ri-star-fill{
+    font-size: 2vmax;
+}
+
+.navbar{
+    font-family: Oswald;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: absolute;
+    top: 91.5%;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #fff;
+    padding: 0vmax 20vmax;
+    list-style: none;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+li:hover{
+    color: tomato;
+}
+
+.T{
+    width: 3.5vw;
+    border: solid rgb(94, 92, 92);
+}
+
+.container2{
+    width: 100vw;
+    height: 80vh;
+}
+
+.mid2 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-top: 10vh;
+    /* background: #000; */
+    justify-content: center;
+}
+
+.mid2 h1{
+    font-size: 3vmax;
+    font-family: Oswald;
+    font-weight: 300;
+}
+
+.material-symbols-outlined{
+    font-size: 3vmax;
+}
+
+.mid2 p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background: tomato; */
+    width: 55vmax;
+    font-family: Montserrat;
+    font-size: 1.5vmax;
+}
+.midicon{
+    display: flex;
+    font-family: Oswald;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5vmax 15vmax;
+    text-align: center;
+    line-height: 1.5vmax;
+}
+
+.midicon span img{
+    border-bottom: solid black;
+    padding: 2.5vmax;
+}
+
+.container3{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    background: rgb(44, 43, 43);
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.article{
+    width: 25vw;
+    height:70vh ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8vmax;
+}
+
+.article h1{
+    color: #fff;
+    font-size: 3vmax;
+    font-family: Oswald;
+    font-weight: 400;
+    line-height: 3.5vmax;
+}
+
+.article .para1{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1vmax;
+    padding-top: 2vmax;
+}
+
+.article .para2{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1vmax;
+    padding: 0.5vmax 0vmax;
+}
+
+.article .btn{
+    position: absolute;
+    margin-top: 25%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5%;
+    color: rgb(34, 34, 34);
+    border-radius: 30px;
+    font-size: 1vmax;
+    font-family: Montserrat;
+    cursor: pointer;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.btn::before{
+    content:"";
+    position:relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3498bd;
+    z-index: -1;
+
+}
+
+
+.aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10%;
+    margin-top: 2vmax;
+    margin-right: 8%;
+    justify-content: center;
+    align-items: center;
+    /* background: tomato; */
+    width: 45vw;
+    height: 65vh;
+    font-size: 8vmax;
+    color: #fff;
+    justify-content: space-between;
+    padding: 0vmax 0vmax;
+}
+
+.aside i{
+    padding-right: 5vmax;
+}
+
+.container4{
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100vw;
+    height: 40vh;
+    top: 71%;
+    font-size: 1.5vmax;
+    align-items: center;
+    text-align: center;
+    /* background: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.container4 p{
+    font-family: Montserrat;
+}
+
+.container4 span{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    rotate: 90deg;
+    font-size: 1.5vmax;
+    top: 50% ;
+    left: 20;
+}
